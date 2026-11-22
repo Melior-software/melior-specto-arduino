@@ -8,7 +8,7 @@
 #include "specto/SpectoHttp.h"
 #include "specto/SpectoBoards.h"
 
-#define MELIOR_SPECTO_VERSION "0.2.2"
+#define MELIOR_SPECTO_VERSION "0.2.3"
 
 class MeliorSpectoClass {
 public:

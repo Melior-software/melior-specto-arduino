@@ -34,6 +34,21 @@ void loop() {
 `secrets.h` obsahuje `WIFI_SSID`, `WIFI_PASS` a `SPECTO_KEY`. Proměnná `teplota` jde z desky na odkaz, `tl1` z odkazu
 na desku (směr nastavíš na webu). `Specto.loop()` volej v každém průchodu `loop()`.
 
+## PlatformIO
+
+Do `platformio.ini` přidej knihovnu z GitHubu:
+
+```ini
+[env:esp32dev]
+platform = espressif32
+board = esp32dev
+framework = arduino
+lib_deps = https://github.com/Melior-software/melior-specto-arduino.git#0.2.3
+```
+
+Pro Nano 33 IoT, MKR WiFi 1010, Nano RP2040 Connect a UNO WiFi Rev2 přidej do `lib_deps` i `arduino-libraries/WiFiNINA`,
+pro MKR1000 `arduino-libraries/WiFi101`.
+
 ## Příklady
 
 | Příklad | Co ukazuje |

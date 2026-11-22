@@ -1,0 +1,26 @@
+{
+  "name": "MeliorSpecto",
+  "version": "0.2.3",
+  "description": "Vizualizace z desky na specto.melior.software: proměnné sketche na odkazu, ovládání s PINem, alarmy. Nastavíš ji na webu, do kódu vložíš jen klíč.",
+  "keywords": ["iot", "dashboard", "hmi", "scada", "visualization", "esp32", "esp8266", "websocket", "melior", "specto"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Melior-software/melior-specto-arduino.git"
+  },
+  "homepage": "https://specto.melior.software/",
+  "authors": [
+    {
+      "name": "Melior",
+      "email": "podpora@melior.software",
+      "url": "https://melior.software/",
+      "maintainer": true
+    }
+  ],
+  "license": "Apache-2.0",
+  "frameworks": "arduino",
+  "platforms": "*",
+  "headers": "MeliorSpecto.h",
+  "export": {
+    "exclude": ["test", "extras"]
+  }
+}
