@@ -1,0 +1,17 @@
+# Melior Specto – syntax colouring in Arduino IDE (tabs between columns)
+MeliorSpectoClass	KEYWORD1
+MeliorSpectoBridgeClass	KEYWORD1
+Specto	KEYWORD1
+SpectoBridge	KEYWORD1
+begin	KEYWORD2
+link	KEYWORD2
+output	KEYWORD2
+input	KEYWORD2
+send	KEYWORD2
+receive	KEYWORD2
+onWrite	KEYWORD2
+loop	KEYWORD2
+connected	KEYWORD2
+status	KEYWORD2
+setServer	KEYWORD2
+MELIOR_SPECTO_VERSION	LITERAL1
