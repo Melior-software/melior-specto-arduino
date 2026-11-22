@@ -89,3 +89,5 @@ v typu a rozsahu nastaveném na webu.
 Apache License 2.0 – viz `LICENSE` a `NOTICE`. Knihovnu smíš používat, upravovat i zabudovat do vlastních
 (i placených) výrobků; zachovej text licence a upozornění. Licence nedává právo používat názvy „Melior“
 a „Melior Specto“ ani loga – upravenou verzi nevydávej za oficiální.
+
+Arduino je ochranná známka Arduino S.r.l. Melior Specto s Arduinem nesouvisí.
